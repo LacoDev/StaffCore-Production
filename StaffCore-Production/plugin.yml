@@ -1,0 +1,43 @@
+name: StaffCore
+version: 3.0
+author: Laco Development
+main: de.lacodev.rsystem.Main
+api-version: 1.13
+
+website: https://www.spigotmc.org/resources/staffcore-1-7-1-15.48655/
+
+commands:
+   staffcore:
+      description: Main Command of StaffCore v3.0
+   report:
+      description: Report a player either with an gui or directly in the command
+   reports:
+      description: List all open Reports
+   reportmanager:
+      description: Manage your Reportreasons with this manager
+      aliases: [rmanager]
+   check:
+      description: Checks for a players previous punishments
+   ban:
+      description: Ban players from the Server
+   mute:
+      description: Mute players from the chat
+   banmanager:
+      description: Manage your Ban/Mute Reasons
+   unban:
+      description: Undo a wrong ban
+   unmute:
+      description: Undo a wrong mute
+   chatfilter:
+      aliases: [cf]
+      description: Open Chatfiltermenu
+   webverify:
+      description: Verifies an users webaccount
+   chatlog:
+      description: Creates a chatlog for the reported player
+   banlist:
+      description: Lists all active bans
+   banip:
+      description: Ban a players IP-Address
+   banhistory:
+      description: Displays the BanHistory for a specific Player
